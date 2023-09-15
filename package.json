@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.20.2",
+    "node": ">=16.20.2",
     "yarn": "1.22.17"
   },
   "scripts": {
@@ -13,7 +13,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@camiloamora/components": "0.1.0",
+    "@camiloamora/components": "0.3.0",
     "date-fns": "^2.30.0",
     "minireset.css": "^0.0.7",
     "next": "10.2.3",
