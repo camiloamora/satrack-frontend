@@ -2,6 +2,10 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=16.16.0",
+    "yarn": ">=1.22.17"
+  },
   "scripts": {
     "dev": "next dev",
     "dev:api": "json-server --watch db.json --port 3001",
