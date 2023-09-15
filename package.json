@@ -1,0 +1,28 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:api": "json-server --watch db.json --port 3001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@camiloamora/components": "0.1.0",
+    "date-fns": "^2.30.0",
+    "minireset.css": "^0.0.7",
+    "next": "10.2.3",
+    "next-transpile-modules": "7.2.0",
+    "react": "17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-datepicker": "^4.17.0",
+    "react-dom": "17.0.2",
+    "react-query": "2.23.1",
+    "react-query-devtools": "2.5.1",
+    "react-select": "^5.7.4"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}
