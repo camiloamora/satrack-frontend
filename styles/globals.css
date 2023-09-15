@@ -1,0 +1,132 @@
+@media (prefers-color-scheme: dark) {
+  :root body:not([data-color-scheme='light']) {
+    --color-primary: #fb8b24;
+    --color-primary-muted: #854d27;
+    --color-primary-highlight: #dd7230;
+    --color-primary-inverted: #172a3a;
+
+    --color-secondary: #eb2d52;
+    --color-secondary-muted: #eb4e58;
+    --color-secondary-inverted: #3c0919;
+
+    --color-font-base: #fff;
+    --color-font-muted: #7e858c;
+    --color-font-highlight: #b7b7b7;
+    --color-font-inverted: #000;
+
+    --background-color-primary: #fff;
+    --background-color-primary-highlight: white;
+
+    --button-border-radius-sm: 0;
+    --button-border-radius-md: 0;
+    --button-border-radius-lg: 0;
+
+    --input-height: 55px;
+    --input-background: #172a3a;
+    --input-border-radius: 0;
+
+    --picture-border: 1px solid #cbd5e0;
+
+    --card-border-radius: 0;
+
+    --task-border-radius: 0;
+  }
+}
+
+:root body[data-color-scheme='dark'] {
+  --color-primary: #fb8b24;
+    --color-primary-muted: #854d27;
+    --color-primary-highlight: #dd7230;
+    --color-primary-inverted: #172a3a;
+
+    --color-secondary: #eb2d52;
+    --color-secondary-muted: #eb4e58;
+    --color-secondary-inverted: #3c0919;
+
+    --color-font-base: #fff;
+    --color-font-muted: #7e858c;
+    --color-font-highlight: #b7b7b7;
+    --color-font-inverted: #000;
+
+    --background-color-primary: #032b43;
+    --background-color-primary-highlight: #172a3a;
+
+    --button-border-radius-sm: 0;
+    --button-border-radius-md: 0;
+    --button-border-radius-lg: 0;
+
+    --input-height: 55px;
+    --input-background: #172a3a;
+    --input-border-radius: 0;
+
+    --picture-border: 1px solid #cbd5e0;
+
+    --card-border-radius: 0;
+
+    --task-border-radius: 0;
+}
+
+body {
+  background: var(--background-color-primary);
+  font-size: 16px;
+}
+
+#__next {
+  height: 100%;
+}
+
+.random {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.planning--date{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.planning--column {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  align-items: center;
+}
+
+.date--picker {
+  width: 150px;
+}
+
+.react-datepicker {
+  font-size: 1.3rem !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 1.5rem !important;
+}
+
+.react-datepicker__header {
+  padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+  top: 13px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  margin: 0.5rem !important;
+}
+
+@media screen and (min-width: 40em) {
+  .planning--column {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+  }
+}

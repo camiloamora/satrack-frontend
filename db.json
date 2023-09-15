@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "descripcion": "primera Tarea",
+        "categoria": "Comida",
+        "estado": "Pendiente",
+        "fechaFinalizacion": "2022-09-14T05:00:00Z",
+        "createdAtDate": "2023-09-14T22:08:20.481Z"
+    },
+    {
+      "descripcion": "segunda Tarea",
+      "categoria": "Comida",
+      "estado": "Pendiente",
+      "fechaFinalizacion": "2022-09-14T05:00:00Z",
+      "createdAtDate": "2023-09-14T22:08:20.481Z"
+    },
+    {
+      "descripcion": "tercera Tarea",
+        "categoria": "Comida",
+        "estado": "Pendiente",
+        "fechaFinalizacion": "2022-09-14T05:00:00Z",
+        "createdAtDate": "2023-09-14T22:08:20.481Z"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
