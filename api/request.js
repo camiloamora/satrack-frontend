@@ -1,5 +1,6 @@
 //const SERVER_URL = 'http://localhost:3001'
-const SERVER_URL = 'http://localhost:5274/v1'
+//const SERVER_URL = 'http://localhost:5274/v1'
+const SERVER_URL = 'https://satrackapp.azurewebsites.net/v1'
 
 class Request {
   constructor(resource) {
