@@ -29,3 +29,6 @@ yarn dev:api
 ```
 
 - Inicia una base de datos basada en Json-server, para modificar los datos iniciales se puede modificar el archivo ./db.json
+
+## DEMO
+Esta es la url demo del proyecto: https://satrack-app-todo.vercel.app
