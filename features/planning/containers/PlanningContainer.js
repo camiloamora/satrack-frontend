@@ -137,7 +137,7 @@ const PlanningContainer = ({ initialData }) => {
     });
   };
 
-  if (isLoading) return "Loading...";
+  if (isLoading) return "Loading... Initializing... Load configuration... I have been sleeping...";
   if (error) return `An error has ocurred ${error.message}`;
 
   return (
